@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cwanda</title>
+    <link rel="icon" type="image/png" href="cwanda.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <div id="clock" class="home__clock"></div>
+    <div class="container">
+        <div class="logo">
+            <h1 class="heading h-wa"><span class="h-c">C</span>wa</h1>
+        </div>
+        <form id="searchForm">
+            <img src="cwanda.png" class="searchCwanda__icon" onclick="window.location.href= 'https://www.cwanda.rw'">
+            <input type="text" id="searchQuery" placeholder="Search Cwanda or type a URL" required>
+            <button type="submit">
+                <i class='bx bx-search'></i>
+            </button>
+        </form>
+
+        <div class="bookmarked">
+            <div class="web" onclick="window.location = 'https://www.youtube.com'">
+                <span class="web-icon yt"><i class='bx bxl-youtube' ></i></span>
+                <h3 class="web-name">YouTube</h2>
+            </div>
+            <div class="web"><span class="web-icon"><i class='bx bx-plus'></i></span></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="clock.js"></script>
+</body>
+</html>

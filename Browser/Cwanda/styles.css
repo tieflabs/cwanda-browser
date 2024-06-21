@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+@font-face {
+  font-family: 'Digital'; /* Name that you will use in your CSS */
+  src: url('assets/fonts/digital-mono.ttf') format('ttf'), /* Path to your font file */
+       url('assets/fonts/digital.ttf') format('truetype'); /* Optional: TrueType font format */
+  /* Add more src lines for other formats if needed */
+  font-weight: normal; /* Font weight */
+  font-style: normal; /* Font style */
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    text-align: center;
+    background-image: url('');
+
+}
+.container {
+    position: absolute;
+    top: 200px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo {
+    margin-bottom: 20px;
+}
+.logo .h-c {
+    top: 30px;
+    font-size: 72px;
+    color: skyblue; /* C */
+    display: inline;
+}
+.logo .h-wa{
+     top: 30px;
+    font-size: 72px;
+    color: skyblue;
+}
+.logo .heading:after {
+    content: 'nda';
+    top: 30px;
+    font-size: 72px;
+    color: #ddd; /* w */
+    display: inline;
+}
+form {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+    overflow: hidden;
+/*    background: skyblue;*/
+}
+.home__clock{
+    position: absolute;
+    height: 50px;
+    width: 200px;
+    margin-top: -120px;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Digital', Arial, sans-serif;
+}
+.searchCwanda__icon{
+    position: absolute;
+    width: 38px;
+    border-radius: 50%;
+    left: 5px;
+    cursor: pointer;
+}
+.searchCwanda__icon:hover{
+    scale: 101%;
+}
+input[type="text"] {
+    outline: none;
+    height: 45px;
+    width: 100%;
+    padding: 0px 20px 0px 50px;
+    border: 1px solid #ddd;
+    border-radius: 24px;
+    font-size: 16px;
+}
+button {
+    position: absolute;
+    background: none;
+    border: none;
+    height: 100%;
+    width: 45px;
+    border-radius: 50px;
+    outline: none;
+    right: 0px;
+    top: 1px;
+    cursor: pointer;
+    text-align: center;
+}
+button .bx {
+    font-size: 28px;
+}
+.bookmarked{
+    position: absolute;
+    height: 100px;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/*    background: skyblue;*/
+    top: 180px;
+}
+.web{
+    position: relative;
+    height: 90px;
+    width: 90px;
+    background: #fbfbfb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+
+}
+.web:hover{
+    color: white;
+  background: #333;
+
+}
+.web-icon{
+    position: absolute;
+    font-size: 30px;
+/*    height: 100px;*/
+    width: 100px;
+}
+.yt{ color: red;}
+.web-name{
+    position: absolute;
+    bottom: 10px;
+    font-size: 12px;
+}
+
